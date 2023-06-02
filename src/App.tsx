@@ -1,4 +1,5 @@
 import Hero from './components/Hero'
+import StreamingCarousel from './components/StreamingCarousel'
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Hero />
+      <StreamingCarousel />
     </>
   )
 }
