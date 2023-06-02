@@ -1,9 +1,9 @@
 import React from 'react'
-import Carousel from 'react-multi-carousel';
+import Carousel, { CarouselProps } from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 const StreamingCarousel = () => {
 
-  const responsive:object = {
+  const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
@@ -51,7 +51,7 @@ const StreamingCarousel = () => {
     >
       {images.map((image) => (
         
-          <img src={image} alt="streaming" className='h-24 w-60 select-none object-contain object-center nonDrag'  />
+          <img src={image} alt="streaming" className='h-24 w-60 select-none object-contain object-center nonDrag' loading='lazy'/>
         
       ))}
     </Carousel>

@@ -10,11 +10,11 @@ const Navbar = () => {
                 <img src={logo} alt="logo"  />
             </div>
             <ul className="font-[Inter]  flex gap-5 ">
-                <li className='cursor-pointer  text-white text-opacity-70 transition-all hover:text-white text-lg'>Home</li>
-                <li className='cursor-pointer  text-white text-opacity-70 transition-all hover:text-white text-lg'>Discover</li>
-                <li className='cursor-pointer  text-white text-opacity-70 transition-all hover:text-white text-lg'>Movie Releases</li>
-                <li className='cursor-pointer  text-white text-opacity-70 transition-all hover:text-white text-lg'>Forum</li>
-                <li className='cursor-pointer  text-white text-opacity-70 transition-all hover:text-white text-lg'>About</li>
+                <li className='cursor-pointer text-white text-lg '>Home</li>
+                <li className='cursor-pointer text-white text-opacity-70 transition-all hover:text-opacity-100 text-lg'>Discover</li>
+                <li className='cursor-pointer text-white text-opacity-70 transition-all hover:text-opacity-100 text-lg'>Movie Releases</li>
+                <li className='cursor-pointer text-white text-opacity-70 transition-all hover:text-opacity-100 text-lg'>Forum</li>
+                <li className='cursor-pointer text-white text-opacity-70 transition-all hover:text-opacity-100 text-lg'>About</li>
             </ul>
             <div className="flex gap-5 items-center">
                 <AiOutlineSearch className="cursor-pointer text-white text-2xl" />
