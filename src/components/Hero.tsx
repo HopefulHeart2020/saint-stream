@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from './Navbar.tsx'
 import {AiFillPlayCircle,AiOutlinePlayCircle} from 'react-icons/ai'
 import {BsBookmark} from 'react-icons/bs'
