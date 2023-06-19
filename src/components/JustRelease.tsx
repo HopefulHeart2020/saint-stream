@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
-import Carousel, { CarouselProps } from 'react-multi-carousel';
+
+import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { AiFillStar } from 'react-icons/ai';
 

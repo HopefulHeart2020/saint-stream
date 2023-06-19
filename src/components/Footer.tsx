@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { AiFillInstagram, AiFillFacebook,AiFillTwitterSquare,AiFillGoogleSquare } from 'react-icons/ai' 
 
 const Footer = () => {
