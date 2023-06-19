@@ -37,7 +37,6 @@ List any software, libraries, or tools that are required to run the project.
 Step-by-step instructions on how to install the project.
 
 ```
-Example:
 1. Clone the repository.
 2. Open a terminal and navigate to the project directory.
 3. Run `npm install` to install dependencies.
@@ -48,10 +47,10 @@ Example:
 Instructions on how to use the project.
 
 ```
-Example:
 1. Open a terminal and navigate to the project directory.
 2. Run `npm run dev` to start the development server.
 3. Open a web browser and go to `http://127.0.0.1:5173/`.
 ```
 
 ## Images
+![image](https://i.ibb.co/cDtgC2h/image-2023-06-19-052025359.png)
