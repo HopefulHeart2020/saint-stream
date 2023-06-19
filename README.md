@@ -1,8 +1,8 @@
 # Saint Stream
 
-    Saint Stream is a cutting-edge streaming platform that offers users the ability to watch their favorite movies and television shows in a responsive and seamless manner. With its innovative design, Saint Stream is optimized for use on a variety of devices, ensuring that viewers can enjoy their entertainment experience from anywhere, at any time.
+Saint Stream is a cutting-edge streaming platform that offers users the ability to watch their favorite movies and television shows in a responsive and seamless manner. With its innovative design, Saint Stream is optimized for use on a variety of devices, ensuring that viewers can enjoy their entertainment experience from anywhere, at any time.
 
-    Design made by [irvanwibowo](https://www.figma.com/@irvanwibowo)
+Design made by [irvanwibowo](https://www.figma.com/@irvanwibowo)
 
 ## Table of Contents
 
