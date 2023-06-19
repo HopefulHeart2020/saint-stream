@@ -53,4 +53,5 @@ Instructions on how to use the project.
 ```
 
 ## Images
-![image](https://i.ibb.co/cDtgC2h/image-2023-06-19-052025359.png)
+![image](https://gcdnb.pbrd.co/images/e1qAdXLXQZHz.png?o=1)
+![image](https://gcdnb.pbrd.co/images/jpdXJnjX5cYY.png?o=1)
