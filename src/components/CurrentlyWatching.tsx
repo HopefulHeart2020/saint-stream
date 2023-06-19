@@ -21,7 +21,7 @@ const CurrentlyWatching = () => {
 
         },
         mobile: {
-            breakpoint: { max: 464, min: 0 },
+            breakpoint: { max: 640, min: 0 },
             items: 1
         }
     };
@@ -85,18 +85,18 @@ const CurrentlyWatching = () => {
             className='bg-black py-4 px-10 '
         >
             {movies.map((movie) => (
-            <div className='cursor-pointer relative rounded-3xl w-[60vw] md:w-[46vw] lg:w-[30vw]'>
+            <div className='cursor-pointer relative rounded-3xl lg:w-[30vw] md:w-[46vw] sm:w-[48vw] w-[85vw]' key={movie.title}>
                 <img src={movie.image} alt="" className=' object-contain object-center nonDrag rounded-3xl' loading="lazy"/>
-                <div className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black h-20'></div>
+                <div className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black h-36'></div>
                 <div className='absolute bottom-0 left-0 w-full px-6'>
-                    <p className='text-white text-3xl'>{movie.title}</p>
-                    <p className='text-gray-300 text-xl'>{movie.year}</p>
+                    <p className='text-white text-sm lg:text-3xl'>{movie.title}</p>
+                    <p className='text-gray-300 text-xs lg:text-xl'>{movie.year}</p>
                     <div className=' mx-auto flex gap-2 items-center'>
-                        <p className='text-white text-sm'>{movie.progress}</p>
+                        <p className='text-white hidden lg:inline lg:text-sm text-xs'>{movie.progress}</p>
                         <Slider defaultValue={movie.percentage} aria-label="Small" valueLabelDisplay="auto" disabled 
                         style={{color: '#00925D'}}
                         />
-                        <p className='text-white text-sm'>{movie.movieLength}</p>
+                        <p className='text-white hidden lg:inline lg:text-sm text-xs'>{movie.movieLength}</p>
                     </div>
                 </div>
             </div>

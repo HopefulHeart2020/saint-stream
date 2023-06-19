@@ -51,7 +51,7 @@ const StreamingCarousel = () => {
     >
       {images.map((image) => (
         
-          <img src={image} alt="streaming" className='h-24 w-60 select-none object-contain object-center nonDrag' loading='lazy'/>
+          <img src={image} alt="streaming" className='h-24 w-60 select-none object-contain object-center nonDrag' key={image} loading="lazy"/>
         
       ))}
     </Carousel>
