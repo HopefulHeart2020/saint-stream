@@ -51,7 +51,6 @@ Instructions on how to use the project.
 2. Run `npm run dev` to start the development server.
 3. Open a web browser and go to `http://127.0.0.1:5173/`.
 ```
-
 ## Images
 ![image](https://gcdnb.pbrd.co/images/e1qAdXLXQZHz.png?o=1)
 ![image](https://gcdnb.pbrd.co/images/jpdXJnjX5cYY.png?o=1)
